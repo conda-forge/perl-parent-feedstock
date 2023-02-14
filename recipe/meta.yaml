@@ -1,5 +1,5 @@
 {% set name = "parent" %}
-{% set version = "0.239" %}
+{% set version = "0.240" %}
 
 package:
   name: perl-{{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   - url: https://cpan.metacpan.org/authors/id/C/CO/CORION/{{ name }}-{{ version }}.tar.gz
-    sha256: ae77bdd9f0be83aaacf3e4ebb7c49496cac21559f4f0f1ae4473d7b59676500b
+    sha256: e0a13d3833b30397d204790bbfda5f888e7eea6953b630dcd6e910a65de3a167
   - url: https://raw.githubusercontent.com/Perl/perl5/v5.32.1/Copying
     sha256: d77d235e41d54594865151f4751e835c5a82322b0e87ace266567c3391a4b912
   - url: https://raw.githubusercontent.com/Perl/perl5/v5.32.1/Artistic
